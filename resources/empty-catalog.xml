@@ -1,0 +1,5 @@
+<saveSourceCatalog xmlns="http://www.ccadllc.com/schema/SourceCatalog/1">
+  <sourceCatalog name="emptyCatalogFromFile" version="1.0.0" description="just an empty catalog">
+    <sources/>
+  </sourceCatalog>
+</saveSourceCatalog>
