@@ -8,7 +8,6 @@
 source cast-source-catalog.sh
 
 cleanupCatalogOutput="$scriptProcessingDir/cleanupCatalogOutput.xml"
-loginGettingSecurityContext $castuser $castpw $castip
 
 getSourceCatalogsIntoFile "$cleanupCatalogOutput"
 delSourceCatalogByNameFromFile "emptyCatalogFromFile" "$cleanupCatalogOutput"

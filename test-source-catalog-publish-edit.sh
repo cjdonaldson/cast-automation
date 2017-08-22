@@ -12,8 +12,6 @@ availableReposFile="$scriptProcessingDir/availableRepos.xml"
 catalogsAfterPublishFile="$scriptProcessingDir/catalogsOutputAfterPublish.xml"
 catalogsAfterEditFile="$scriptProcessingDir/catalogsOutputAfterEdit.xml"
 
-loginGettingSecurityContext $castuser $castpw $castip
-
 echo
 echo "#####################################"
 echo "publish source catalog"

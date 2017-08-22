@@ -16,8 +16,6 @@ parsedSourcesFile="$scriptProcessingDir/parsedSources.xml"
 sourcesFile="$scriptProcessingDir/sources.xml"
 diffedFile="$scriptProcessingDir/diffed.xml"
 
-loginGettingSecurityContext $castuser $castpw $castip
-
 echo
 echo "#####################################"
 echo "import modified sources"

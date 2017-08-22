@@ -11,8 +11,6 @@ catalogsFile="$scriptProcessingDir/catalogsOutput.xml"
 catalogsFileAfterAdd="$scriptProcessingDir/catalogsAfterAdd.xml"
 catalogsFileAfterDel="$scriptProcessingDir/catalogsAfterDel.xml"
 
-loginGettingSecurityContext $castuser $castpw $castip
-
 echo
 echo "#####################################"
 echo "add empty catalog"
