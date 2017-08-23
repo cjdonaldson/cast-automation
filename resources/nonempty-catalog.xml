@@ -1,0 +1,12 @@
+<saveSourceCatalog xmlns="http://www.ccadllc.com/schema/SourceCatalog/1">
+  <sourceCatalog name="nonemptyCatalogFromFile" version="1.0.0" description="a catalog with some entries">
+    <sources>
+      <Source definition="SD" encryptionMode="FE-MPM" followDtcp="false" id="83dbf4a9-981a-4e34-82d5-3627e9c00435" name="AMC" programProvision="INTERNAL" shortName="AMC" sourceId="4100" value="NORMAL">
+        <CopyControlInformation aps="OFF" cit="OFF" emi="COPY_FREELY" rct="OFF"/>
+      </Source>
+      <Source definition="SD" encryptionMode="FE-MPM" followDtcp="false" id="691a4c0a-9eb7-4e13-ac3b-640a9e12122b" name="BET" programProvision="INTERNAL" shortName="BET" sourceId="4103" value="NORMAL">
+        <CopyControlInformation aps="OFF" cit="OFF" emi="COPY_FREELY" rct="OFF"/>
+      </Source>
+    </sources>
+  </sourceCatalog>
+</saveSourceCatalog>

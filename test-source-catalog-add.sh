@@ -35,6 +35,13 @@ diff "$catalogsFileAfterDel" "$catalogsFileAfterAdd"
 
 echo
 echo "#####################################"
+echo "add nonempty catalog"
+addSourceCatalogFromFile "resources/nonempty-catalog.xml"
+getSourceCatalogsIntoFile "$catalogsFileAfterAdd"
+diff "$catalogsFileAfterDel" "$catalogsFileAfterAdd"
+
+echo
+echo "#####################################"
 echo "import a catalog"
 parsedSourcesFile="$scriptProcessingDir/parsedSources.xml"
 uploadedResultsFile="$scriptProcessingDir/uploadedResult.xml"

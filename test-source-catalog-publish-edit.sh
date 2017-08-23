@@ -16,9 +16,8 @@ echo
 echo "#####################################"
 echo "publish source catalog"
 getSourceCatalogsIntoFile "$catalogsFile"
-getCatalogIdByNameFromFile "fromArgs2" "$catalogsFile"
 getRepositoryToFile "$availableReposFile"
-publishCatalogByIdToRepositoryByNameFromFile "$catalogId" "Sources" "$availableReposFile"
+publishCatalogByNameFromFileToRepositoryByNameFromFile "fromArgs2" "$catalogsFile" "Sources" "$availableReposFile"
 getSourceCatalogsIntoFile "$catalogsAfterPublishFile"
 diff "$catalogsFile" "$catalogsAfterPublishFile"
 
@@ -26,7 +25,7 @@ echo
 echo "#####################################"
 echo "editing source catalog to next version"
 
-editSourceCatalogByNameFromFileToFileWithNewVersion "fromArgs2" "$catalogsAfterPublishFile" "1.0.4"
+editSourceCatalogByNameFromFileWithNewVersion "fromArgs2" "$catalogsAfterPublishFile" "1.0.4"
 getSourceCatalogsIntoFile "$catalogsAfterEditFile"
 diff "$catalogsAfterPublishFile" "$catalogsAfterEditFile"
 
